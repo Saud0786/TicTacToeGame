@@ -1,0 +1,43 @@
+/* .step{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+.step1{
+  margin-top: 20px;
+  padding: 10px;background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+
+}
+p{
+  font-size: 20px;
+  color: white;
+}
+span{
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+}
+img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.rule{
+  display: none;
+}
+/* #btn{
+  background-color: black;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+      margin-top: 10px;
+      cursor: pointer;
+} */

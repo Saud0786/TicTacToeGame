@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="rules.css">
+    <style>
+       /* .box{
+      color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.container1{
+  backdrop-filter: blur(50px);
+  border: 2px solid rgb(241, 12, 233);
+  padding: 8px 30px;
+}
+.container1 img{
+ width: 30px;
+ margin-left: 40px;
+} */
+
+    </style>
+  </head>
+  <body>
+    <div class="msg-container hide">
+      <p id="msg">Winner</p>
+      <button id="new-btn">New Game</button>
+    </div>
+    <main>
+      <h1 class="name">Tic Tac Toe</h1>
+      <!-- <button id="btn" >Game Rule</button> -->
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn">Reset Game</button>
+    </main>
+
+    <header>
+      <div  class="rule-hides">
+      <h1 style="margin-top: 20px;">How to Play Tic Tac Toe</h1>
+      <p>
+        Tic-tac-toe is a fun game that
+         you can play any time and anywhere as 
+         long as you have a piece of paper,
+          a pencil, and an opponent. Tic-tac-toe
+           is a zero-sum game, which means that if both
+            players are playing their best,
+             then neither player will win. However, 
+             if you learn how to play tic-tac-toe and
+              master some simple strategies, then you'll
+               be able to not only play but win the majority
+                of the time. If you want to know how to play 
+                tic-tac-toe,then see Step 1 to get started.
+      </p>
+      <div class="step">
+        <button class="step1">Step 1</button>
+        <img src="step1.jpg" alt="">
+        <p>
+          <span>1. Draw the board</span>
+          <br>
+          First, you have to draw the board, which is made up of a 3 x 3 grid of squares. This means it has three rows of three squares. Some people play with a 4 x 4 grid, but that is for more advanced players, and we will focus on the 3 x 3 grid here.</p>
+        <button class="step1">Step 2</button>
+        <img src="step2.jpg" alt="">
+        <p>
+         <span>2. Have the first player go first.</span> 
+         <br>
+         Though traditionally, the first player goes with "X", you can allow the first player to decide whether to go with "X"s or to go with "O"s. These symbols will be placed on the table, in an attempt to have three of them in a row. If you're going first, then the best move you can make is to move into the center. This will maximize your chances of winning since you'll be able to create a row of three "X"s or "O"s in more combinations (4) this way than if you chose a different square.</p>
+         
+         <button class="step1">Step 3</button>
+         <img src="step3.jpg" alt="">
+         <p>
+          <span>
+           3. Have the second player go second</span>
+            <br>
+            After the first player goes, then the second player should put down his symbol, which will be different from the symbol of the first player. The second player can either try to block the first player from creating a row of three or focus on creating their row of three. Ideally, the player can do both.
+         </p>
+         <button class="step1">Step 4</button>
+         <img src="Step-4.jpg" alt="">
+         <p>
+          
+            <span>4. Keep alternating moves until one of the players has drawn a row of three symbols or until no one can win</span>
+          <br>
+            The first player to draw three of their symbols in a row, whether it is horizontal, vertical, or diagonal, has won tic-tac-toe. However, if both players are playing with optimal strategy, then there's a good chance that no one will win because you will have blocked all of each other's opportunities to create a row of three.
+
+          </p>
+
+          <button class="step1">Step 5</button>
+         <img src="Step-5.jpg" alt="">
+         <p>
+          <span>
+           5. Keep practicing
+          </span>
+          <br>
+          Contrary to popular belief, tic-tac-toe isn't purely a game of chance. Some strategies can help you optimize your skills and to become an expert tic-tac-toe player. If you keep playing, you'll soon learn all of the tricks to make sure you win every time -- or, at least, you'll learn the tricks to make sure you never lose. It is like 0's and x's.
+
+         </p>
+    
+        </div>
+      </div>
+      <div style="background-color: #212121; color: white; " class="fotter">
+        <img id="pic" class="Mypic" src="WhatsApp Image 2024-11-13 at 23.10.44_bb6b8f4d.jpg" alt="">
+        <h2>Created by Saud 💓 Ansari</h2>
+        <br>
+               <a href="https://www.instagram.com/saud_7667_?igsh=d3c2YzhraGhzdGRl"><i class="ri-instagram-line"><img src="social.png" alt=""></i></a>
+              <a href="https://www.facebook.com/share/SwYoqCwxB6CMPnDx/"><i class="ri-facebook-box-line"><img src="icons8-facebook-48.png" alt=""></i></a>
+              <a href="https://x.com/Saudansari7667?t=z9kfD7Fj1jGp9gsy_5OszQ&s=08"><i class="ri-linkedin-box-line"><img src="icons8-twitterx-50.png" alt=""></i></a>
+      </div>
+    </header>
+    <script src="game.js"></script>
+  </body>
+</html>
